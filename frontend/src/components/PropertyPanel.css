@@ -1,0 +1,154 @@
+.property-panel {
+  width: 350px;
+  height: 100vh;
+  background: #f9f9f9;
+  border-left: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.property-panel-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #999;
+  text-align: center;
+}
+
+.property-header {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.property-header h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.component-type {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.property-section {
+  margin-bottom: 25px;
+}
+
+.property-section h4 {
+  margin: 0 0 15px 0;
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.parameters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.parameter-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.parameter-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 500;
+}
+
+.required {
+  color: #e53e3e;
+  margin-left: 3px;
+}
+
+.unit {
+  color: #777;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.parameter-input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.parameter-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.connections-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connection-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.connection-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.connection-type {
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.connection-type.pipe {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.connection-type.signal {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.connection-type.electrical {
+  background: #e8f5e8;
+  color: #388e3c;
+}
+
+.constraints-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.constraint-item {
+  padding: 8px 12px;
+  background: #f5f5f5;
+  border-left: 3px solid #ffc107;
+  border-radius: 3px;
+}
+
+.constraint-item code {
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 12px;
+  color: #555;
+}

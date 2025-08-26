@@ -1,0 +1,190 @@
+# P&ID Schematic Editor - Git Ignore File
+
+# ============================================
+# Python Backend (Flask)
+# ============================================
+
+# Virtual environments
+backend/venv/
+backend/env/
+backend/.venv/
+backend/.env/
+backend/ENV/
+backend/env.bak/
+backend/venv.bak/
+
+# Python cache
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/pip-wheel-metadata/
+backend/share/python-wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/MANIFEST
+
+# PyInstaller
+backend/*.manifest
+backend/*.spec
+
+# Unit test / coverage reports
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/.coverage
+backend/.coverage.*
+backend/.cache
+backend/nosetests.xml
+backend/coverage.xml
+backend/*.cover
+backend/*.py,cover
+backend/.hypothesis/
+backend/.pytest_cache/
+
+# Environment variables
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Flask instance folder
+backend/instance/
+
+# Jupyter Notebook
+backend/.ipynb_checkpoints
+
+# IPython
+backend/profile_default/
+backend/ipython_config.py
+
+# ============================================
+# React Frontend (Node.js)
+# ============================================
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Testing
+frontend/coverage/
+
+# Production builds
+frontend/build/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+# Optional npm cache directory
+frontend/.npm
+
+# Optional REPL history
+frontend/.node_repl_history
+
+# Output of 'npm pack'
+frontend/*.tgz
+
+# Yarn Integrity file
+frontend/.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+frontend/.cache
+frontend/.parcel-cache
+
+# Storybook build outputs
+frontend/.out
+frontend/.storybook-out
+
+# ============================================
+# Development Tools
+# ============================================
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# ============================================
+# Project Specific
+# ============================================
+
+# Exported schematic files (optional - uncomment if you don't want to track them)
+# *.json
+
+# User uploaded files
+uploads/
+
+# Database files (if you add SQLite later)
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with secrets
+config.json
+secrets.json
+
+# Process ID files
+*.pid
+
+# ============================================
+# Backup and Archive Files
+# ============================================
+
+*.bak
+*.backup
+*.orig
+*.rej
+*.old
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
