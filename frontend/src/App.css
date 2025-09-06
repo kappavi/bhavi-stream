@@ -55,6 +55,24 @@
   background: #545b62;
 }
 
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #218838;
+}
+
+.btn-warning {
+  background: #ffc107;
+  color: #212529;
+}
+
+.btn-warning:hover {
+  background: #e0a800;
+}
+
 .component-count {
   font-size: 14px;
   color: #ecf0f1;
@@ -103,6 +121,26 @@
   margin-bottom: 10px;
   line-height: 1.4;
   color: #444;
+}
+
+.help-section {
+  background: #e8f5e8;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.help-section h4 {
+  margin: 0 0 8px 0;
+  color: #155724;
+  font-size: 16px;
+}
+
+.help-section p {
+  margin: 0;
+  color: #155724;
+  line-height: 1.4;
 }
 
 .app-loading,

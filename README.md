@@ -82,6 +82,13 @@ The frontend will run on http://localhost:3000
 - **🟢 Green**: Electrical connections (power)
 - **Drag-to-Connect**: Click on an output port and drag to an input port
 - **Type Matching**: Only compatible connection types can be linked
+- **Dynamic Updates**: Connections automatically update when components move
+
+### Grouping System (Like Adobe Illustrator)
+- **Multi-Select**: Hold Ctrl/Cmd and click to select multiple components
+- **Create Groups**: Select multiple components and press Ctrl/Cmd+G
+- **Visual Feedback**: Groups shown with dashed blue borders and labels
+- **Group Management**: Components maintain group relationships in exported data
 
 ## Component Types
 

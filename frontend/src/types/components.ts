@@ -28,6 +28,19 @@ export interface ComponentInstance {
   y: number;
   parameters: Record<string, any>;
   definition: ComponentDefinition;
+  groupId?: string;
+  isSelected?: boolean;
+}
+
+export interface ComponentGroup {
+  id: string;
+  name: string;
+  componentIds: string[];
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+  isCollapsed?: boolean;
 }
 
 export interface SchematicConnection {
@@ -55,6 +68,7 @@ export interface Schematic {
   name: string;
   components: ComponentInstance[];
   connections: SchematicConnection[];
+  groups: ComponentGroup[];
 }
 
 export interface ComponentLibrary {
